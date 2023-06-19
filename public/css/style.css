@@ -1,19 +1,59 @@
-body{
-    margin:0;
+body {
+    margin: 0;
     padding: 0;
     font-family: Arial, Helvetica, sans-serif;
     background-color: #000000;
-}
-img{
-    max-width: 100%;
+    position: absolute;
+    top: 90px;
+    left: 20px;
+    bottom: 10px;
+    right: 0;
+    padding: 30px;
+    overflow-y: scroll;
+    overflow-x: hidden;
 }
 a{
+    text-decoration: none !important;
+}
+
+body {
+    height: 82%;
+}
+
+::-webkit-scrollbar {
+    width: 10px;
+}
+
+body::-webkit-scrollbar-track {
+    background-color: #ffffff;
+    -webkit-border-radius: 10px;
+    border-radius: 10px;
+}
+
+body::-webkit-scrollbar-thumb {
+    -webkit-border-radius: 10px;
+    border-radius: 10px;
+    background: #ff9900;
+}
+.col-md-offset-2{
+    width: 100% !important;
+}
+
+img {
+    max-width: 100%;
+}
+
+a {
     text-decoration: none;
 }
+
 html {
-    scroll-behavior:smooth;
-  }
-  header {
+    overflow: auto;
+    scroll-behavior: smooth;
+}
+
+
+header {
     position: fixed;
     top: 0;
     left: 0;
@@ -22,25 +62,32 @@ html {
     padding: 10px 0;
     z-index: 999;
 }
+
 header p {
     color: #ffffff;
     font-size: 24px;
     opacity: 0.7;
 }
+
 header .icons {
     color: #ffffff;
     margin: 0 23px;
 }
-.menu{
+
+.menu {
     text-align: right;
     position: fixed;
     width: 100%;
     z-index: 200;
 }
-#check{
+
+#check {
     display: none;
 }
-.button{
+
+
+
+.button {
     width: 48px;
     height: 48px;
     background: rgb(255, 196, 0);
@@ -56,23 +103,27 @@ header .icons {
     top: 0;
     z-index: 201;
 }
-.button:hover{
+
+.button:hover {
     background: #000000;
     color: #fff;
 }
-.button span{
+
+.button span {
     height: 3px;
     width: 100%;
     background: white;
     display: inline-block;
-    transition: all 0.5s cubic-bezier(.62,.43,.35,1.47);
+    transition: all 0.5s cubic-bezier(.62, .43, .35, 1.47);
 }
-#check:checked ~ nav a {
+
+#check:checked~nav a {
     padding: 3px;
     opacity: 1;
     transform: scale(1);
-    width:150px;
+    width: 150px;
 }
+
 .button {
     width: 48px;
     height: 48px;
@@ -89,21 +140,24 @@ header .icons {
     z-index: 201;
     text-align: center;
 }
-#check:checked ~ nav a {
+
+#check:checked~nav a {
     padding: 10px;
     opacity: 1;
     transform: scale(1);
     width: 118px;
 }
-#check:checked ~ .button span:nth-child(1){
+
+#check:checked~.button span:nth-child(1) {
     width: 100%;
     transform: rotate(45deg) translateY(6px) translateX(6px);
 }
-#check:checked ~ .button span:nth-child(2){
+
+#check:checked~.button span:nth-child(2) {
     width: 0;
 }
 
-#check:checked ~ .button span:nth-child(3){
+#check:checked~.button span:nth-child(3) {
     width: 100%;
     transform: rotate(-45deg) translateY(-7px) translateX(7px);
 }
@@ -119,12 +173,13 @@ nav {
     background: transparent;
     height: 0;
 }
+
 nav a {
     text-decoration: none;
     color: #000000;
     display: block;
     font-size: 18px;
-    transition: all 0.4s cubic-bezier(.22,.43,.35,1.5);
+    transition: all 0.4s cubic-bezier(.22, .43, .35, 1.5);
     opacity: 0;
     transform: scale(0);
     transform-origin: top;
@@ -136,23 +191,27 @@ nav a {
     display: inline-block;
     padding: 0;
 }
-nav a:hover{
+
+nav a:hover {
     color: #ffffff;
     background-color: #f8c900;
 }
 
-#check:checked ~ nav {
+#check:checked~nav {
     height: 500px;
 }
-#check:checked ~ nav a{
+
+#check:checked~nav a {
     padding: 10px;
     opacity: 1;
     transform: scale(1);
 }
+
 .form {
     padding-top: 67px;
     text-align: center;
 }
+
 .form select {
     margin: 20px 12px;
     color: #fff;
@@ -161,35 +220,43 @@ nav a:hover{
     border: none;
     width: 129px;
 }
-.form option{
-   background-color: #ffffff;
-   color: #000000;
+
+.form option {
+    background-color: #ffffff;
+    color: #000000;
 }
-.form option:hover{
-    color:#ffd000 !important;
- }
-.search{
-   text-align: center;
+
+.form option:hover {
+    color: #ffd000 !important;
 }
+
+.search {
+    text-align: center;
+}
+
 .search input {
     width: 476px;
     border-radius: 3px;
 }
-.search hr{
-    
+
+.search hr {
+
     border-radius: 3px;
     color: #fff !important;
     height: 3px;
 }
-.content h2{
-   color:#f8c900 ;
-   font-size: 35px;
+
+.content h2 {
+    color: #f8c900;
+    font-size: 35px;
 }
+
 .content h6 {
     color: #969696;
     font-size: 15px;
     margin: 28px;
 }
+
 .content p {
     display: inline;
     padding: 3px 20px;
@@ -199,15 +266,18 @@ nav a:hover{
     border-radius: 5px;
     margin: 13px;
 }
-.content .active{
+
+.content .active {
     color: #fff;
     background-color: #f8c900;
 }
+
 .content h5 {
     color: #fff;
     opacity: 0.7;
     margin: 25px 0;
 }
+
 .content a {
     color: #fff;
     border: 1px solid #fff;
@@ -218,16 +288,19 @@ nav a:hover{
     display: block;
     text-align: center;
 }
+
 .content h6 {
     color: #969696;
     font-size: 15px;
     margin: 28px;
 }
+
 .movie select {
     border: 2px solid #000;
     background-color: #000000;
     color: #ffffff;
 }
+
 .form select {
     margin: 20px 12px;
     color: #fff;
@@ -235,13 +308,16 @@ nav a:hover{
     padding: -2px;
     border: none;
 }
-.form  select option {
-  display: inline;
+
+.form select option {
+    display: inline;
 }
-.return{
+
+.return {
     justify-content: space-between;
 }
-.return h4{
+
+.return h4 {
     display: inline;
     font-size: 12px;
     color: #fff;
@@ -249,143 +325,90 @@ nav a:hover{
     padding: 0;
     opacity: 0.7;
 }
-.return p{
+
+.return p {
     font-size: 10px;
     color: #fff;
     margin: 0;
     padding: 0;
     opacity: 0.7;
 }
+
 .icons {
     text-align: end;
 }
-.carousel-caption{
-    text-align: left;
-}
-.carousel-caption p {
-    margin-top: 0;
-    margin-bottom: 12rem;
-}
-.sec-nav{
-    text-align: center;
-}
-.sec-nav a{
-    text-align: center;
-    color: #cac8c8 !important;
-    margin: 0 20px;
 
-}
-.sec-nav a:hover{
-   border-bottom:2px solid #ffffff;
-   
-}
-.sec-nav .active{
-    color: #fff !important;
-    border-bottom:2px solid #ffffff;
-}
-.sec-nav hr{
-    color: #cac8c8 !important;
-    height: 2px;
-}
-.white{
-    color: #b3b3b3;
-    font-size: 15px;
-    line-height: 32px;
-}
-.shipp p{
-    color: #b3b3b3;
-    font-size: 12px;
-    
-}
-.shipp h4{
-    color: #fff;
-    font-size: 28px;
-    font-weight: bold;
-    margin: 0;
-    padding: 0;
-}
-.shipp h6{
-    color: #fff;
-    font-size: 12px;
-    margin: 0;
-    padding: 0;
-}
+
+
 /*home page start here*/
-.banner{
+.banner {
     background-image: url(../images/banner.jpg);
     background-size: cover;
     padding: 30px 0;
 }
+
 img.banner-img {
     padding: 100px 0 25px 0;
 }
-.top{
-    text-align: left;
-    padding: 30px 0;
-}
-.top h4{
-    color: #fff;
-    font-size: 37px;
-    font-weight: bold;
-}
-.top span{
-    color:#f8c900;
+.poster p{
+    color:#fff;
     font-size: 15px;
+    font-weight: normal;
 }
-.shipping{
-    text-align: left;
+.poster h6{
+    color:#fff;
+    font-size: 15px;
+    font-weight: normal;
 }
-.shipping p{
-    color: #fff;
-    font-size: 17px;
+.poster span{
+    color:#ff8800;
+    font-size: 15px;
+    font-weight: 500;
 }
-.shipping h4{
-    color: #fff;
-    font-size: 26px;
-}
-.shipping h4 span{
-    color: #f8c900;
-    font-size: 17px;
-}
-.shipping a{
-    color: #ffffff;
-    padding: 5px;
-    font-size: 12px;
-    background-color: #2a1929;
+.poster a{
+    color:#ffffff;
+    font-size: 13px;
+    font-weight: 400;
+    background-color: #240646;
+    padding:2px  10px;
     border-radius: 50px;
 }
-.poster{
-    text-align: center;
-    padding: 50px 0;
+
+
+.slider{
+    display: flex;
 }
-.poster p{
-    color: #959595;
+
+  .canvas{
+    text-align: center;
+    margin: 20px 0;
+  }
+  .canvas p{
+    font-size: 17px;
+    color: #7a7481;
+  }
+  .canvas h4{
     font-size: 25px;
-}
-.poster h2{
     color: #ffffff;
-}
-.print{
-    text-align: center;
-    padding: 50px 0;
-}
-.print h6{
-   color: #fff;
-   font-size: 40px;
-}
-.headliner{
-    text-align: center;
-   padding-top: 100px;
-}
-.headliner h2{
-    font-size: 70px;
-    font-weight:bold;
+  }
+  .canvas h2{
+    font-size: 25px;
     color: #ffffff;
-}
+  }
+  .line{
+    text-align: center;
+    margin: 30px 0;
+  }
+  .line h2{
+    font-size: 35px;
+    color: #ffffff;
+    font-weight: 500;
+  }
 .pagination {
     padding: 20px 0;
     text-align: left;
-  }
+}
+
 .pagination a {
     color: rgb(255, 255, 255);
     float: left;
@@ -393,48 +416,108 @@ img.banner-img {
     text-decoration: none;
     margin: 0 12px;
 }
+
 .pagination a.active {
     background-color: #ffffff;
     color: rgb(0, 0, 0);
     border-radius: 50px;
-  }
-footer{
-    padding:50px 0;
 }
-footer p{
-    color:#fff;
+.sec-nav {
+    text-align: center;
+}
+.sec-nav a {
+    color: #fff;
+    padding: 0 20px;
+}
+p.white {
+    color: #fff;
     font-size: 15px;
 }
-footer h2{
-    color:#fff;
+.top h4 {
+    color: #fff;
+    font-weight: 700;
+}
+footer {
+    padding: 50px 0;
+}
+
+footer p {
+    color: #fff;
+    font-size: 15px;
+}
+
+footer h2 {
+    color: #fff;
     font-size: 40px;
 }
-footer a{
-    color:#fff;
+
+footer a {
+    color: #fff;
     font-size: 15px;
 }
+
+.top-heading {
+    color: #fff;
+    font-size: 31px;
+    font-weight: 600;
+    text-align: left;
+}
+.top-heading a {
+    color: #f8c900;
+    font-size: 15px;
+    font-weight: 400;
+}
+
+
 @media only screen and (max-width:1199px) {
     .form {
-        padding-top: 94px;
+        padding-top: 0px;
         text-align: center;
     }
 }
-@media (min-width:1500px){
+
+@media (min-width:1500px) {
     .navbar-expand-xxl {
         flex-wrap: nowrap;
         justify-content: flex-start;
-     }
+    }
 }
 @media only screen and (max-width:767px) {
-    img.banner-img{
-        width:386px;
+    .slider__wrapper {
+        display: block;
+        text-align: -webkit-center;
+        text-align: -moz-center;
+    }
+    .slider__item {
+        flex: 0 0 25%;
+        max-width: 46%;
+    }
+    .top-heading{
+        text-align: center;
+        font-size: 25px;
+    }
+    .poster{
+        text-align: center;
+        margin: 50px 0 50px  40px;
+        display:block;
+    }
+    .poster a{
+       font-size: 12px;
+    }
+}
+
+@media only screen and (max-width:767px) {
+    img.banner-img {
+        width: 386px;
         margin-top: 100px;
     }
+
     .form {
         padding-top: 200px;
         text-align: center;
-            }
-            .form select {
+    }
+
+    .form select {
         margin: 20px 2px;
         color: #fff;
         background-color: transparent;
@@ -442,90 +525,86 @@ footer a{
         border: none;
     }
 }
+
 @media only screen and (max-width:380px) {
-    img.banner-img{
-        width:386px;
+    .banner-img {
+        width: 386px;
         margin-top: 150px;
     }
 }
+
 @media only screen and (max-width:370px) {
     .form {
         padding-top: 250px;
         text-align: center;
     }
 }
+
 @media only screen and (max-width:349px) {
-    img.banner-img{
-        width:386px;
+ .banner-img {
+        width: 386px;
         margin-top: 200px;
     }
+
     .form {
         padding-top: 280px;
         text-align: center;
     }
 }
+
 @media only screen and (max-width:575px) {
-    .top{
+    .top {
         text-align: center;
     }
-    .shipping{
-        text-align: center;
-        width: 100%;
-    }
-    footer{
+
+    footer {
         text-align: center;
         width: 100%;
     }
-    .search input{
-        width:200px;
+
+    .search input {
+        width: 200px;
         text-align: center;
     }
-    .menu{
-        text-align: center;
-        width: 100%;
-    }
-    .nav{
+
+    .menu {
         text-align: center;
         width: 100%;
     }
-    .flage{
+
+    .nav {
         text-align: center;
         width: 100%;
     }
-    .button{
+
+    .flage {
         text-align: center;
-       
+        width: 100%;
     }
-  }
-  @media only screen and (max-width:331px) {
-    .headliner h2{
-        font-size: 20px;
+
+    .button {
         text-align: center;
+
     }
-    .top h4{
-        font-size: 20px;
-        text-align: center;
-    }
-  }
-  @media only screen and (max-width:329px) {
+}
+
+@media only screen and (max-width:329px) {
     .form {
         padding-top: 320px;
         text-align: center;
     }
-  }
+}
+
 /*collection page*/
 @media only screen and (max-width:439px) {
-    header p{
+    header p {
         font-size: 14px;
     }
-    .top h4{
-        font-size: 14px;
-    }
-  
     .pagination {
         padding: 0;
         text-align: center;
     }
+
     .pagination a {
         color: rgb(255, 255, 255);
         float: none;
@@ -533,10 +612,4 @@ footer a{
         text-decoration: none;
         margin: 0 12px;
     }
-  }
-
-
-
-
-
-
+}
