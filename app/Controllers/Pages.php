@@ -18,10 +18,17 @@ class Pages extends BaseController
              . view('layout/footer');
     }
 
-    public function product()
+    public function poster()
     {
         return view('layout/header')
-             . view('product')
+             . view('poster')
+             . view('layout/footer');
+    }
+
+    public function form()
+    {
+        return view('layout/header')
+             . view('form')
              . view('layout/footer');
     }
 
