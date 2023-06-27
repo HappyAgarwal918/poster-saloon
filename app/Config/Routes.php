@@ -34,7 +34,8 @@ $routes->set404Override();
 
 $routes->get('/', [Pages::class, 'index']);
 $routes->get('/collection', [Pages::class, 'collection']);
-$routes->get('/product', [Pages::class, 'product']);
+$routes->get('/poster', [Pages::class, 'poster']);
+$routes->get('/form', [Pages::class, 'form']);
 $routes->get('(:segment)', [Pages::class, 'view']);
 
 /*

@@ -65,8 +65,8 @@
             </div>
         </div>
     </div>
-    <div class="container">
-        <h2 class="top-heading text-leftr">Top Sellers<a href="#">See All</a></h2>
+    <div class="top-heading">
+        <h2 class="top-heading text-leftr">Top Sellers<a href="#">&nbsp;See All</a></h2>
     </div>
     <div class="slider owl-carousel">
         <div class="box">
@@ -74,7 +74,7 @@
                 <img src="images/main-one.png" alt="" width="300px">
                 <p>Ricky Nelson And The Early Brother.... </p>
                 <h6>$31.49 &nbsp;<span><del>$34.99</del>(10% off)</span></h6>
-                <a href="">EREE Shipping</a>
+                <a href="">FREE Shipping</a>
             </div>
         </div>
         <div class="box">
@@ -82,7 +82,7 @@
                 <img src="images/main-two.png" alt="" width="300px">
                 <p>Ricky Nelson And The Early Brother.... </p>
                 <h6>$31.49 &nbsp;<span><del>$34.99</del>(10% off)</span></h6>
-                <a href="">EREE Shipping</a>
+                <a href="">FREE Shipping</a>
             </div>
         </div>
         <div class="box">
@@ -90,17 +90,20 @@
                 <img src="images/main-three.png" alt="" width="300px">
                 <p>Ricky Nelson And The Early Brother.... </p>
                 <h6>$31.49 &nbsp;<span><del>$34.99</del>(10% off)</span></h6>
-                <a href="">EREE Shipping</a>
+                <a href="">FREE Shipping</a>
             </div>
         </div>
         <div class="box">
             <div class="poster">
-                <img src="images/also-four.png" alt="" width="300px">
+                <img src="images/main-four.png" alt="" width="300px">
                 <p>Ricky Nelson And The Early Brother.... </p>
                 <h6>$31.49 &nbsp;<span><del>$34.99</del>(10% off)</span></h6>
-                <a href="">EREE Shipping</a>
+                <a href="">FREE Shipping</a>
             </div>
         </div>
+    </div>
+    <div class="top-heading">
+        <h2 class="top-heading text-leftr">Top Sellers<a href="#">&nbsp;See All</a></h2>
     </div>
     <div class="slider owl-carousel">
         <div class="box">
@@ -108,7 +111,7 @@
                 <img src="images/main-one.png" alt="" width="300px">
                 <p>Ricky Nelson And The Early Brother.... </p>
                 <h6>$31.49 &nbsp;<span><del>$34.99</del>(10% off)</span></h6>
-                <a href="">EREE Shipping</a>
+                <a href="">FREE Shipping</a>
             </div>
         </div>
         <div class="box">
@@ -116,29 +119,30 @@
                 <img src="images/main-two.png" alt="" width="300px">
                 <p>Ricky Nelson And The Early Brother.... </p>
                 <h6>$31.49 &nbsp;<span><del>$34.99</del>(10% off)</span></h6>
-                <a href="">EREE Shipping</a>
+                <a href="">FREE Shipping</a>
             </div>
         </div>
         <div class="box">
             <div class="poster">
-                <img src="images/main-three.png" alt="" width="300px">
+                <img src="images/main-sev.png" alt="" width="300px">
                 <p>Ricky Nelson And The Early Brother.... </p>
                 <h6>$31.49 &nbsp;<span><del>$34.99</del>(10% off)</span></h6>
-                <a href="">EREE Shipping</a>
+                <a href="">FREE Shipping</a>
             </div>
         </div>
         <div class="box">
             <div class="poster">
-                <img src="images/also-four.png" alt="" width="300px">
+                <img src="images/main-one.png" alt="" width="300px">
                 <p>Ricky Nelson And The Early Brother.... </p>
                 <h6>$31.49 &nbsp;<span><del>$34.99</del>(10% off)</span></h6>
-                <a href="">EREE Shipping</a>
+                <a href="">FREE Shipping</a>
             </div>
         </div>
+
     </div>
 
-    <div class="container">
-        <h2 class="top-heading text-leftr">Top Sellers<a href="#">See All</a></h2>
+    <div class="top-heading">
+        <h2 class="top-heading text-leftr">Classic Movies <a href="#">&nbsp;See All</a></h2>
     </div>
 
     <div class="slider owl-carousel">
@@ -147,7 +151,7 @@
                 <img src="images/main-one.png" alt="" width="300px">
                 <p>Ricky Nelson And The Early Brother.... </p>
                 <h6>$31.49 &nbsp;<span><del>$34.99</del>(10% off)</span></h6>
-                <a href="">EREE Shipping</a>
+                <a href="">FREE Shipping</a>
             </div>
         </div>
         <div class="box">
@@ -155,7 +159,7 @@
                 <img src="images/main-two.png" alt="" width="300px">
                 <p>Ricky Nelson And The Early Brother.... </p>
                 <h6>$31.49 &nbsp;<span><del>$34.99</del>(10% off)</span></h6>
-                <a href="">EREE Shipping</a>
+                <a href="">FREE Shipping</a>
             </div>
         </div>
         <div class="box">
@@ -163,15 +167,15 @@
                 <img src="images/main-three.png" alt="" width="300px">
                 <p>Ricky Nelson And The Early Brother.... </p>
                 <h6>$31.49 &nbsp;<span><del>$34.99</del>(10% off)</span></h6>
-                <a href="">EREE Shipping</a>
+                <a href="">FREE Shipping</a>
             </div>
         </div>
         <div class="box">
             <div class="poster">
-                <img src="images/also-four.png" alt="" width="300px">
+                <img src="images/main-eight.png" alt="" width="300px">
                 <p>Ricky Nelson And The Early Brother.... </p>
                 <h6>$31.49 &nbsp;<span><del>$34.99</del>(10% off)</span></h6>
-                <a href="">EREE Shipping</a>
+                <a href="">FREE Shipping</a>
             </div>
         </div>
     </div>
@@ -195,8 +199,8 @@
             </div>
         </div>
     </div>
-    <div class="container">
-        <h2 class="top-heading text-leftr">Top Sellers<a href="#">See All</a></h2>
+    <div class="top-heading">
+        <h2 class="top-heading text-leftr">European Fine Art&nbsp;<a href="#">See All</a></h2>
     </div>
 
     <div class="slider owl-carousel">
@@ -205,7 +209,7 @@
                 <img src="images/main-one.png" alt="" width="300px">
                 <p>Ricky Nelson And The Early Brother.... </p>
                 <h6>$31.49 &nbsp;<span><del>$34.99</del>(10% off)</span></h6>
-                <a href="">EREE Shipping</a>
+                <a href="">FREE Shipping</a>
             </div>
         </div>
         <div class="box">
@@ -213,7 +217,7 @@
                 <img src="images/main-two.png" alt="" width="300px">
                 <p>Ricky Nelson And The Early Brother.... </p>
                 <h6>$31.49 &nbsp;<span><del>$34.99</del>(10% off)</span></h6>
-                <a href="">EREE Shipping</a>
+                <a href="">FREE Shipping</a>
             </div>
         </div>
         <div class="box">
@@ -221,21 +225,21 @@
                 <img src="images/main-three.png" alt="" width="300px">
                 <p>Ricky Nelson And The Early Brother.... </p>
                 <h6>$31.49 &nbsp;<span><del>$34.99</del>(10% off)</span></h6>
-                <a href="">EREE Shipping</a>
+                <a href="">FREE Shipping</a>
             </div>
         </div>
         <div class="box">
             <div class="poster">
-                <img src="images/also-four.png" alt="" width="300px">
+                <img src="images/main-four.png" alt="" width="300px">
                 <p>Ricky Nelson And The Early Brother.... </p>
                 <h6>$31.49 &nbsp;<span><del>$34.99</del>(10% off)</span></h6>
-                <a href="">EREE Shipping</a>
+                <a href="">FREE Shipping</a>
             </div>
         </div>
     </div>
 
-    <div class="container">
-        <h2 class="top-heading text-leftr">Top Sellers<a href="#">See All</a></h2>
+    <div class="top-heading">
+        <h2 class="top-heading text-leftr">James Bond Poster&nbsp;<a href="#">See All</a></h2>
     </div>
 
     <div class="slider owl-carousel">
@@ -244,7 +248,7 @@
                 <img src="images/main-one.png" alt="" width="300px">
                 <p>Ricky Nelson And The Early Brother.... </p>
                 <h6>$31.49 &nbsp;<span><del>$34.99</del>(10% off)</span></h6>
-                <a href="">EREE Shipping</a>
+                <a href="">FREE Shipping</a>
             </div>
         </div>
         <div class="box">
@@ -252,7 +256,7 @@
                 <img src="images/main-two.png" alt="" width="300px">
                 <p>Ricky Nelson And The Early Brother.... </p>
                 <h6>$31.49 &nbsp;<span><del>$34.99</del>(10% off)</span></h6>
-                <a href="">EREE Shipping</a>
+                <a href="">FREE Shipping</a>
             </div>
         </div>
         <div class="box">
@@ -260,20 +264,20 @@
                 <img src="images/main-three.png" alt="" width="300px">
                 <p>Ricky Nelson And The Early Brother.... </p>
                 <h6>$31.49 &nbsp;<span><del>$34.99</del>(10% off)</span></h6>
-                <a href="">EREE Shipping</a>
+                <a href="">FREE Shipping</a>
             </div>
         </div>
         <div class="box">
             <div class="poster">
-                <img src="images/also-four.png" alt="" width="300px">
+                <img src="images/main-six.png" alt="" width="300px">
                 <p>Ricky Nelson And The Early Brother.... </p>
                 <h6>$31.49 &nbsp;<span><del>$34.99</del>(10% off)</span></h6>
-                <a href="">EREE Shipping</a>
+                <a href="">FREE Shipping</a>
             </div>
         </div>
     </div>
-    <div class="container">
-        <h2 class="top-heading text-leftr">Top Sellers<a href="#">See All</a></h2>
+    <div class="top-heading">
+        <h2 class="top-heading text-leftr">European Fine Art&nbsp;<a href="#">See All</a></h2>
     </div>
 
     <div class="slider owl-carousel">
@@ -282,7 +286,7 @@
                 <img src="images/main-one.png" alt="" width="300px">
                 <p>Ricky Nelson And The Early Brother.... </p>
                 <h6>$31.49 &nbsp;<span><del>$34.99</del>(10% off)</span></h6>
-                <a href="">EREE Shipping</a>
+                <a href="">FREE Shipping</a>
             </div>
         </div>
         <div class="box">
@@ -290,7 +294,7 @@
                 <img src="images/main-two.png" alt="" width="300px">
                 <p>Ricky Nelson And The Early Brother.... </p>
                 <h6>$31.49 &nbsp;<span><del>$34.99</del>(10% off)</span></h6>
-                <a href="">EREE Shipping</a>
+                <a href="">FREE Shipping</a>
             </div>
         </div>
         <div class="box">
@@ -298,21 +302,21 @@
                 <img src="images/main-three.png" alt="" width="300px">
                 <p>Ricky Nelson And The Early Brother.... </p>
                 <h6>$31.49 &nbsp;<span><del>$34.99</del>(10% off)</span></h6>
-                <a href="">EREE Shipping</a>
+                <a href="">FREE Shipping</a>
             </div>
         </div>
         <div class="box">
             <div class="poster">
-                <img src="images/also-four.png" alt="" width="300px">
+                <img src="images/main-sev.png" alt="" width="300px">
                 <p>Ricky Nelson And The Early Brother.... </p>
                 <h6>$31.49 &nbsp;<span><del>$34.99</del>(10% off)</span></h6>
-                <a href="">EREE Shipping</a>
+                <a href="">FREE Shipping</a>
             </div>
         </div>
     </div>
 
-    <div class="container">
-        <h2 class="top-heading text-leftr">Top Sellers<a href="#">See All</a></h2>
+    <div class="top-heading">
+        <h2 class="top-heading text-leftr">James Bond Poster&nbsp;<a href="#">See All</a></h2>
     </div>
 
     <div class="slider owl-carousel">
@@ -321,7 +325,7 @@
                 <img src="images/main-one.png" alt="" width="300px">
                 <p>Ricky Nelson And The Early Brother.... </p>
                 <h6>$31.49 &nbsp;<span><del>$34.99</del>(10% off)</span></h6>
-                <a href="">EREE Shipping</a>
+                <a href="">FREE Shipping</a>
             </div>
         </div>
         <div class="box">
@@ -329,7 +333,7 @@
                 <img src="images/main-two.png" alt="" width="300px">
                 <p>Ricky Nelson And The Early Brother.... </p>
                 <h6>$31.49 &nbsp;<span><del>$34.99</del>(10% off)</span></h6>
-                <a href="">EREE Shipping</a>
+                <a href="">FREE Shipping</a>
             </div>
         </div>
         <div class="box">
@@ -337,15 +341,15 @@
                 <img src="images/main-three.png" alt="" width="300px">
                 <p>Ricky Nelson And The Early Brother.... </p>
                 <h6>$31.49 &nbsp;<span><del>$34.99</del>(10% off)</span></h6>
-                <a href="">EREE Shipping</a>
+                <a href="">FREE Shipping</a>
             </div>
         </div>
         <div class="box">
             <div class="poster">
-                <img src="images/also-four.png" alt="" width="300px">
+                <img src="images/main-eight.png" alt="" width="300px">
                 <p>Ricky Nelson And The Early Brother.... </p>
                 <h6>$31.49 &nbsp;<span><del>$34.99</del>(10% off)</span></h6>
-                <a href="">EREE Shipping</a>
+                <a href="">FREE Shipping</a>
             </div>
         </div>
     </div>
@@ -355,8 +359,8 @@
             <img src="images/sec-banner.jpg" alt="">
         </div>
     </div>
-    <div class="container">
-        <h2 class="top-heading text-leftr">Top Sellers<a href="#">See All</a></h2>
+    <div class="top-heading">
+        <h2 class="top-heading text-leftr">Classic Movies <a href="#">&nbsp;See All</a></h2>
     </div>
 
     <div class="slider owl-carousel">
@@ -365,7 +369,7 @@
                 <img src="images/main-one.png" alt="" width="300px">
                 <p>Ricky Nelson And The Early Brother.... </p>
                 <h6>$31.49 &nbsp;<span><del>$34.99</del>(10% off)</span></h6>
-                <a href="">EREE Shipping</a>
+                <a href="">FREE Shipping</a>
             </div>
         </div>
         <div class="box">
@@ -373,7 +377,7 @@
                 <img src="images/main-two.png" alt="" width="300px">
                 <p>Ricky Nelson And The Early Brother.... </p>
                 <h6>$31.49 &nbsp;<span><del>$34.99</del>(10% off)</span></h6>
-                <a href="">EREE Shipping</a>
+                <a href="">FREE Shipping</a>
             </div>
         </div>
         <div class="box">
@@ -381,20 +385,20 @@
                 <img src="images/main-three.png" alt="" width="300px">
                 <p>Ricky Nelson And The Early Brother.... </p>
                 <h6>$31.49 &nbsp;<span><del>$34.99</del>(10% off)</span></h6>
-                <a href="">EREE Shipping</a>
+                <a href="">FREE Shipping</a>
             </div>
         </div>
         <div class="box">
             <div class="poster">
-                <img src="images/also-four.png" alt="" width="300px">
+                <img src="images/main-five.png" alt="" width="300px">
                 <p>Ricky Nelson And The Early Brother.... </p>
                 <h6>$31.49 &nbsp;<span><del>$34.99</del>(10% off)</span></h6>
-                <a href="">EREE Shipping</a>
+                <a href="">FREE Shipping</a>
             </div>
         </div>
     </div>
-    <div class="container">
-        <h2 class="top-heading text-leftr">Top Sellers<a href="#">See All</a></h2>
+    <div class="top-heading">
+        <h2 class="top-heading text-leftr">James Bond Poster&nbsp;<a href="#">See All</a></h2>
     </div>
 
     <div class="slider owl-carousel">
@@ -403,7 +407,7 @@
                 <img src="images/main-one.png" alt="" width="300px">
                 <p>Ricky Nelson And The Early Brother.... </p>
                 <h6>$31.49 &nbsp;<span><del>$34.99</del>(10% off)</span></h6>
-                <a href="">EREE Shipping</a>
+                <a href="">FREE Shipping</a>
             </div>
         </div>
         <div class="box">
@@ -411,7 +415,7 @@
                 <img src="images/main-two.png" alt="" width="300px">
                 <p>Ricky Nelson And The Early Brother.... </p>
                 <h6>$31.49 &nbsp;<span><del>$34.99</del>(10% off)</span></h6>
-                <a href="">EREE Shipping</a>
+                <a href="">FREE Shipping</a>
             </div>
         </div>
         <div class="box">
@@ -419,15 +423,15 @@
                 <img src="images/main-three.png" alt="" width="300px">
                 <p>Ricky Nelson And The Early Brother.... </p>
                 <h6>$31.49 &nbsp;<span><del>$34.99</del>(10% off)</span></h6>
-                <a href="">EREE Shipping</a>
+                <a href="">FREE Shipping</a>
             </div>
         </div>
         <div class="box">
             <div class="poster">
-                <img src="images/also-four.png" alt="" width="300px">
+                <img src="images/main-four.png" alt="" width="300px">
                 <p>Ricky Nelson And The Early Brother.... </p>
                 <h6>$31.49 &nbsp;<span><del>$34.99</del>(10% off)</span></h6>
-                <a href="">EREE Shipping</a>
+                <a href="">FREE Shipping</a>
             </div>
         </div>
     </div>
